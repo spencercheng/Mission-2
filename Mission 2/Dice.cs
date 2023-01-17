@@ -19,6 +19,10 @@ namespace Mission_2
 
                 randomDiceRolls[dieNum1 + dieNum2 - 2]++; //  Storing it into the array
             }
+            Console.WriteLine(" ");
+            Console.WriteLine("DICE ROLLING SIMULATION RESULTS");
+            Console.WriteLine("Each '*' represents 1 % of the total number of rolls.");
+            Console.WriteLine("Total number of rolls = " + rolls);
             for (int i = 0; i < 11; i++)
 
             {

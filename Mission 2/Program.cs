@@ -14,7 +14,7 @@ namespace Mission_2
 
 
             D.DiceRolls(diceRolls); // Calling class
-
+            Console.WriteLine("");
             Console.WriteLine("Thank you for using the dice throwing simulator. Goodbye!");
 
         }
